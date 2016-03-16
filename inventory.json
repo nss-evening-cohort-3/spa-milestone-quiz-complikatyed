@@ -1,0 +1,31 @@
+{
+  "cars": [
+    {
+      "make": "Ford",
+      "model": "Pinto",
+      "year": "1979",
+      "price": "98500",
+      "color": "Orange",
+      "purchased": false,
+      "description": "Vintage doesn't begin to describe it. Not yet exploded -- think of the potential!"
+    },
+   {
+      "make": "AMC",
+      "model": "Gremlin",
+      "year": "1974",
+      "price": "84500",
+      "color": "Purple",
+      "purchased": false,
+      "description": "You know you want it!"
+    },
+   {
+      "make": "Chevrolet",
+      "model": "El Camino",
+      "year": "1968",
+      "price": "500",
+      "color": "Red",
+      "purchased": false,
+      "description": "See the USA, in your Chevrolet."
+    },
+  ]
+}

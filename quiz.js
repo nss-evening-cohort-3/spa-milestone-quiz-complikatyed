@@ -1,17 +1,10 @@
 "use strict"
 
-var CarLot = (function(originalCarLot) {
-
-  return originalCarLot;
-
-})(CarLot || {});
-
-
 function populatePage (inventory) {
 
   gatherStoredCarData(inventory);
 
-  activateEvents();
+  CarLot.activateEvents();
 }
 
 // Load the inventory and send a callback function to be
@@ -80,60 +73,10 @@ var showInventory = function(myString) {
 
   parkingPlace.innerHTML = myString;
 
-  activateEvents();
-
 };
 
 
-var activateEvents = function() {
 
-    let cardListener = document.getElementsByClassName("carCard");
-
-    for (let i = 0; i < cardListener.length; i++) {
-       let cardThing = cardListener[i]
-
-       cardThing.addEventListener("click", youClickedMe);
-    };
-};
-
-var youClickedMe = function(event) {
-
-  changeBorder();
-  userInput.focus();
-};
-
-var userInput = document.getElementById("userInput");
-var cardId;
-// ------- Event Listener for input in the text area --------------- //
-
-userInput.addEventListener("keyup", function() {
-
-  changeText(cardId, userInput);
-});
-
-// ------- Event Listener for press of 'Enter' key --------------- //
-
-userInput.addEventListener("keypress", function(e) {
-  if (e.keyCode === 13) {
-    // Takes the focus AWAY from the text box
-    userInput.blur();
-    // Resets the input box value to blank
-    userInput.value = "";
-  }
- });
-
-var changeBorder = function() {
-    var card = event.target.closest('div');
-    card.classList.toggle("fatBorder");
-    cardId = card.getAttribute('id').split("--")[1];
-  };
-
-var changeText = function(targetId, userInput){
-
-    var newDescribe = document.getElementById("describe--" + targetId);
-
-    newDescribe.innerHTML = userInput.value;
-  };
 
 
 

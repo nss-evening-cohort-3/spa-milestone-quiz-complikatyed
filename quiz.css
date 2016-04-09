@@ -1,0 +1,66 @@
+body {
+  padding-top: 70px;
+}
+
+.inputBox {
+  border-radius: 10px;
+}
+
+.title {
+  padding-bottom: 10px;
+}
+
+.carCard {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  height: 275px;
+  margin: 10px;
+  padding-top: 10px;
+  overflow: auto;
+}
+
+img {
+  max-width: 150px;
+  margin: 0 auto;
+}
+
+.thumbnail {
+  display: inline-block;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.Red {
+  border: 3px solid red;
+}
+
+.Orange {
+  border: 3px solid orange;
+}
+
+.Purple {
+  border: 3px solid purple;
+}
+
+.SkyBlue {
+  background-color: SkyBlue;
+}
+
+.Orange.fatBorder {
+  border: 8px solid orange;
+}
+
+.Red.fatBorder {
+  border: 8px solid red;
+}
+
+.Purple.fatBorder {
+  border: 8px solid purple;
+}
+
+
+

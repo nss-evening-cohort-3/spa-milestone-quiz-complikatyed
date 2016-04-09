@@ -1,0 +1,34 @@
+{
+  "cars": [
+    {
+      "make": "Ford",
+      "model": "Pinto",
+      "carPic": "http://media.npr.org/assets/img/2011/05/31/FordPinto_wide-aa4b7f14f4dde2bc2b9fd16e77003fb01626dee2-s900-c85.jpg",
+      "year": "1979",
+      "price": "98500",
+      "color": "Orange",
+      "purchased": false,
+      "description": "Vintage doesn't begin to describe it. Not yet exploded -- think of the potential!"
+    },
+   {
+      "make": "AMC",
+      "model": "Gremlin",
+      "carPic": "https://s-media-cache-ak0.pinimg.com/736x/b3/e1/81/b3e18143725589691cacb83cf5169a89.jpg",
+      "year": "1974",
+      "price": "84500",
+      "color": "Purple",
+      "purchased": false,
+      "description": "You know you want it!"
+    },
+   {
+      "make": "Chevrolet",
+      "model": "Corvair",
+      "carPic": "https://s-media-cache-ak0.pinimg.com/736x/35/25/cb/3525cb965ce714ec09c9295c8b9e08fe.jpg",
+      "year": "1965",
+      "price": "500",
+      "color": "Red",
+      "purchased": false,
+      "description": "See the USA, in your Chevrolet<br>(Unless it kills you first)"
+    }
+  ]
+}

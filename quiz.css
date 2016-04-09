@@ -46,10 +46,8 @@ img {
   border: 3px solid purple;
 }
 
-.Orange.fatBorder,
-.Red.fatBorder,
-.Purple.fatBorder {
-  background-color: lightSteelBlue;
+.SkyBlue {
+  background-color: SkyBlue;
 }
 
 .Orange.fatBorder {

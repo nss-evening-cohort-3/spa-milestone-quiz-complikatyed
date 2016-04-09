@@ -8,10 +8,11 @@ function populatePage (inventory) {
 
 }
 
-// Load the inventory and send a callback function to be
-// invoked after the process is complete
+// ----- Load the inventory and send callback function to be invoked -------------- //
+// ----- after the XHR call and relevant load processes are complete -------------- //
 
  CarLot.loadInventory(populatePage);
+
 
 
 // --------------------  Converts the JSON data from objects to arrays  -------------- //

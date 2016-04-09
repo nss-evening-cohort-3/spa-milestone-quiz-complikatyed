@@ -1,10 +1,11 @@
-"use strict"
+"use strict";
 
 function populatePage (inventory) {
 
   gatherStoredCarData(inventory);
 
   CarLot.activateEvents();
+
 }
 
 // Load the inventory and send a callback function to be
